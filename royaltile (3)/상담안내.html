@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<title>로얄타일</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <script language="javascript">
+  function showPopup() { window.open("08_2_popup.html", "a", "width=400, height=300, left=100, top=50"); }
+  </script>
+
+</head>
+
+<body background="내가찍은배경화면.jpg">
+  <div class="nav">
+    <a href="https://royaltile.deutschjisu.repl.co"><img src="내가만든로고.gif" width="50px" height="50px" title="로얄타일"></a>(유)로얄타일
+  
+    <div class="nav-items">
+       <div class="nav-item"><a href="index.html" style="text-decoration: none;" title="홈" >홈</a></div>
+      <div class="nav-item"><a href="소개.html" style="text-decoration: none;" title="소개" > 소개</a></div>
+      <div class="nav-item"><a href="제품.html" style="text-decoration: none;" title="제품">제품</a></div>
+      <div class="nav-item"><a href="오시는길.html" style="text-decoration: none;"title="오시는길">오시는길</a></div>
+      <div class="nav-item"><a href="상담안내.html" style="text-decoration: none;" title="상담안내">상담안내</a></div>
+    </div>
+  </div>
+<br><br>
+
+<form name=frm>
+ <table align=center border=2 bordercolor=red bordercolorlight=white cellspacing=0 cellpadding=0>
+<tr bgcolor=red align=center>
+	<td colspan=2><font size=6px color=white><b>상담 예약</b></font></td>
+</tr>
+<tr>
+	<td bgcolor=white align=center><font size=4px><b>제목</b></font></td>
+	<td >
+		<!-- 코딩2 -->	<input type=text name=h.p size=50 maxlength=50>	
+	
+	</td>
+</tr>
+<tr>
+		<td bgcolor=white align=center><font size=4px><b>비밀번호</b></font></td>
+	<td><!-- 코딩4 -->     <input type=password name=pw size=12 maxlength=8>
+	</td>
+</tr>
+<tr>
+		<td bgcolor=white align=center><font size=4px><b>거주지</b></font></td>
+	<td>
+		<!-- 코딩5 --> <input type=radio name=local value=1>익산
+		<input type=radio name=local value=2>그 외
+		
+	</td>
+</tr>
+
+
+<tr>
+			<td bgcolor=white align=center><font size=4px><b>전화번호</b></font></td>
+	<td>
+		<!-- 코딩8-->
+<select name=phone1>
+<option value=1 SELECTED>010</option>
+<option value=2>017</option>
+<option value=3>011</option>
+<option value=4>018</option>
+<option value=5>019</option>
+</select>  
+	
+	-
+	<input type=text name=phone2 size=4 maxlength=4>
+	-
+	<input type=text name=phone3 size=4 maxlength=4>
+	</td>
+</tr>
+
+<tr>
+		<td bgcolor=white align=center><font size=4px><b>내용</b></font></td>
+	<td>
+		<!-- 코딩10 -->	<textarea cols=50 rows=5 name=memo>무엇이든 물어보세요:-) </textarea>	
+	</td>
+</tr>
+
+<tr>
+	<td bgcolor=white align=center><font size=4px><b>사진</b></font></td>
+	<td><!-- 코딩11 --><input type=file size=4></td>
+
+</tr>
+<tr>
+	<td bgcolor=white  colspan=2 align=center>
+		<!-- 코딩12 --><input type=submit  value=질문하기 onclick="showPopup();">	
+		<!-- 코딩13-->	<input type=reset value=다시작성>	
+	</td>
+</tr>
+</table>
+
+</form>
+
+    
+      
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
